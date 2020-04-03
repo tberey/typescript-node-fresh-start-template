@@ -5,4 +5,4 @@ interface consoleMessage {
 }
 
 const msg:consoleMessage = {message: 'hello world'};
-console.log(msg);
+console.log(msg.message);
