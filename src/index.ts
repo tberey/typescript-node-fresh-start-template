@@ -4,7 +4,7 @@ Hello, Node.ts Server World.
 */
 
 
-// TypeScript Demo:
+// TypeScript New Server Demo:
 import http from "http";
 
 export interface consoleMessage {

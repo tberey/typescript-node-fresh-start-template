@@ -1,8 +1,13 @@
 {
-  "name": "ts-node-stock-markets",
+  "name": "typescript-node-fresh-start-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A completely (almost; rimraf & nodemon are configured) blank start, for any new typescript node project.",
+  "homepage": "https://github.com/tberey/typescript-node-fresh-start-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tberey/typescript-node-fresh-start-template.git"
+  },
+  "main": "build/index.js",
   "scripts": {
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc",
@@ -10,7 +15,7 @@
     "compile": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "You",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^13.13.9",
