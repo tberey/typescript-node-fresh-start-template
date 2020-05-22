@@ -3,7 +3,7 @@
 ## An empty canvas for any Node.ts project, without extra/optional dependancies or modules yet introduced, (excluding nodemon and rimraf). Use as a template to begin any Typescript with Node.js Project, from a fresh start.
 
 ###### With Node/npm installed:
-### Simply download, extract, and npm install.
+### Simply download, extract, (or clone), and 'npm install'.
 
 
 ***
@@ -19,3 +19,4 @@
 |Create a 'tsconfig.json' file, with the minimal default configuration applied, using npx (node package executor). This will mean using a directory in your project called 'src', where all your back-end typescript files will sit. This also means your compiled program will be outputted into a directory called 'build', which will .js files, and where the production ready program should be started from (after compiling). There also other setting you can choose or add into this tsconfig, however this is down to user/circumstances, as these settings are defaulted for most common use.|<ul><li>"npx tsc --init --rootDir src --outDir build \ --esModuleInterop --resolveJsonModule --lib es6 \ --module commonjs --allowJs true --noImplicitAny true"</li></ul>|
 |Add the "compile" command to your 'package.json', under the parent tag 'scripts', in it's object value.|<ul><li>" "compile": "tsc" "</li></ul>|
 |Compile your project using npx|<ul><li>"npx tsc"</li></ul>|
+|Compile and start your project using npm|<ul><li>"npm start"</li></ul>|

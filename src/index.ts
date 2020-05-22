@@ -27,5 +27,5 @@ const server = http.createServer((req:object, res:any) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+  console.log(`Server running at http://${hostname}:${port}/`); // Visit - http://localhost:3000
 });
