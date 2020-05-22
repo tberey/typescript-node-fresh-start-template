@@ -2,9 +2,10 @@
 
 ## An empty canvas for any Node.ts project, without extra/optional dependancies or modules yet introduced, (excluding nodemon and rimraf). Use as a template to begin any Typescript with Node.js Project, from a fresh start.
 
-###### With Node/npm installed:
-### Simply download, extract, (or git clone), and 'npm install'.
+***
 
+###### With Node/npm installed:
+#### Simply download, extract, (or git clone), and 'npm install' from your terminal/shell, in the same directory as the 'package.json'.
 
 ***
 <br>
