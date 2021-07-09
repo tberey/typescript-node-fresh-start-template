@@ -72,7 +72,7 @@
 
 <!-- ABOUT THis PROJECT -->
 ## About This Project
-This is a fresh & blank template, with some of the most common and helpful (but basic) modules included, as well as automatic [logging]() configured out the box. After installation and starting the application, you will have a simple and empty HTTP REST Server hosted locally, ready-to-go. Everything inclusive of this template will be completely up to date, and updated each time it is installed, so it will never depreciate and is safe to use over time repeatedly. This is the perfect starting point for any project, as you can simply install this template and then start importing your own modules, or writing your own code, without any hastle. Completely compitible with any vision or modules.
+This is a fresh & blank template, with some of the most common and helpful (but basic) modules included, as well as automatic [logging](#screenshots) configured out the box. After installation and starting the application, you will have a simple and empty HTTP REST Server hosted locally, ready-to-go. Everything inclusive of this template will be completely up to date, and updated each time it is installed, so it will never depreciate and is safe to use over time repeatedly. This is the perfect starting point for any project, as you can simply install this template and then start importing your own modules, or writing your own code, without any hastle. Completely compitible with any vision or modules.
 
 **A new project can be written in either TypeScript or JavaScript, without any further changes needed, however this template is set up and intended for TS, making use of it's typesetting, precompiling abilities, and simplicity in a object-oriented approach.**
 
