@@ -143,7 +143,7 @@ For help or guidance in downloading and running the application, see the followi
 ### Screenshots
 
 Logging Sample<br>
-![Screenshot#5](https://github.com/tberey/social-stocks/blob/development/screenshots/local-logs-sample.png?raw=true)
+![Screenshot#5](https://github.com/tberey/typescript-node-fresh-start-template/blob/master/screenshots/local-logs-sample.png?raw=true)
 
 <br><hr><br>
 
