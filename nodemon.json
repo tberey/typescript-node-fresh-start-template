@@ -1,0 +1,7 @@
+{
+  "restartable": "rstrt",
+  "ignore": [".git", ".github", "node_modules", "dist", "build", "coverage"],
+  "watch": ["src"],
+  "exec": "ts-node ./src/main.ts",
+  "ext": ".js,.json,.ts"
+}

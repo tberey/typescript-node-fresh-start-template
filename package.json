@@ -1,0 +1,45 @@
+{
+  "name": "new-app",
+  "version": "1.0.0",
+  "description": "new-app",
+  "homepage": "#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/new-app"
+  },
+  "main": "build/main.js",
+  "scripts": {
+    "dev": "nodemon",
+    "setup": "npm update && npm install",
+    "build": "rimraf ./build && tsc",
+    "start:fast": "node build/main.js",
+    "start": "npm run build && node build/main.js",
+    "upinstart": "npm run setup && npm run start",
+    "test:exit": "mocha --exit -r ts-node/register src/tests/*.test.ts",
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'src/tests/*.ts'",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "latest",
+    "@types/mocha": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "@types/express": "latest",
+    "eslint": "latest",
+    "ts-node": "latest",
+    "typescript": "latest",
+    "nodemon": "latest",
+    "rimraf": "latest"
+  },
+  "dependencies": {
+    "chai": "latest",
+    "chai-http": "latest",
+    "mocha": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "ejs": "latest"
+  }
+}
