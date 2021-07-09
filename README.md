@@ -78,6 +78,8 @@ This is a fresh & blank template, with some of the most common and helpful (but 
 
 *This template is completely unrestricted, and free for anyone to use, unlimitedly, with no credit or acknowledgements needed. There are no signs of any ownership, or personal touches, inside the codebase.*
 
+<br>
+
 ### Tech Stack
 * [Typescript](https://www.typescriptlang.org/) - Write in TypeScript (or JS), Compiles down to JavaScript.
 * [NodeJS](https://nodejs.org/en/) - Node Runtime Environment.
