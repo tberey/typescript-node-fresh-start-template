@@ -22,7 +22,7 @@
   <a href="https://github.com/tberey">
     <img src="public/assets/img.png" alt="Logo" width="73" height="70">
   </a><br><br>
-  <div align="center"><h1>Node.ts</h1>A Fresh & Blank Template,<br>to start something new in Typescript and Nodejs</div>
+  <div align="center"><h1>Node.ts</h1>A Fresh & Blank Template,<br>to start something new in TypeScript and Nodejs</div>
   <div align="right">
     <br>
     <a href="https://github.com/tberey/typescript-node-fresh-start-template/blob/master/README.md"><strong>Documentation »</strong></a>
