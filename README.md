@@ -196,6 +196,7 @@ The following steps are complete instruction to create this template, but withou
     "version": "1.0.0",
     "description": "<App_Desc>",
     "main": "build/main.js",
+    "types": "build/main.d.ts"
     "scripts": {
       "setup": "npm update && npm install",
       "build": "tsc",
