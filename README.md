@@ -25,7 +25,7 @@
   <div align="center"><h1>Node.ts</h1>A Fresh & Blank Template,<br>to start something new in Typescript and Nodejs</div>
   <div align="right">
     <br>
-    <a href="https://github.com/tberey/typescript-node-fresh-start-template/blob/main/README.md"><strong>Documentation »</strong></a>
+    <a href="https://github.com/tberey/typescript-node-fresh-start-template/blob/master/README.md"><strong>Documentation »</strong></a>
     <br>
     <a href="#usage">View Demo</a>
     ·
@@ -154,7 +154,7 @@ The following steps are complete instruction to create this template, but withou
   ```sh
   npx tsc --init
   ```
-5. [Optional] Some basic parameters to use in the tsconfig.json file. [My settings for this file can be found here](https://github.com/tberey/typescript-node-fresh-start-template/blob/main/tsconfig.json) also, to copy & paste. Otherwise, adjust this further with own preferences, or leave it as is.
+5. [Optional] Some basic parameters to use in the tsconfig.json file. [My settings for this file can be found here](https://github.com/tberey/typescript-node-fresh-start-template/blob/master/tsconfig.json) also, to copy & paste. Otherwise, adjust this further with own preferences, or leave it as is.
   ```sh
   {
     "compilerOptions": {
