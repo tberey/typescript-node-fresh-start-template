@@ -54,7 +54,12 @@
             <li><a href="#installation">Installation</a></li>
         </ul>
         </li>
-        <li><a href="#usage">Usage</a></li>
+        <li>
+          <a href="#usage">Usage</a>
+          <ul>
+            <li><a href="#screenshots">Screenshots</a></li>
+        </ul>
+        </li>
         <li><a href="#complete-setup-instructions">Complete Setup Instructions</a></li>
         <li><a href="#changelog">Changelog</a></li>
         <li><a href="#contributing">Contributing</a></li>
@@ -67,7 +72,7 @@
 
 <!-- ABOUT THis PROJECT -->
 ## About This Project
-This is a fresh & blank template, with some of the most common and helpful (but basic) modules included. After installation and starting the application, you will have a simple and empty HTTP REST Server hosted locally, ready-to-go. Everything inclusive of this template will be completely up to date, and updated each time it is installed, so it will never depreciate and is safe to use over time repeatedly. This is the perfect starting point for any project, as you can simply install this template and then start importing your own modules, or writing your own code, without any hastle. Completely compitible with any vision or modules.
+This is a fresh & blank template, with some of the most common and helpful (but basic) modules included, as well as automatic [logging]() configured out the box. After installation and starting the application, you will have a simple and empty HTTP REST Server hosted locally, ready-to-go. Everything inclusive of this template will be completely up to date, and updated each time it is installed, so it will never depreciate and is safe to use over time repeatedly. This is the perfect starting point for any project, as you can simply install this template and then start importing your own modules, or writing your own code, without any hastle. Completely compitible with any vision or modules.
 
 **A new project can be written in either TypeScript or JavaScript, without any further changes needed, however this template is set up and intended for TS, making use of it's typesetting, precompiling abilities, and simplicity in a object-oriented approach.**
 
@@ -133,7 +138,16 @@ For help or guidance in downloading and running the application, see the followi
 |:---|:---|:---|
 | <ul><li>GET "/"</li></ul> | Homepage:<br>The client-side landing page. | <ul><li>"`http://localhost:3000/`"</li></ul> |
 
+<br>
+
+### Screenshots
+
+Logging Sample<br>
+![Screenshot#5](https://github.com/tberey/social-stocks/blob/development/screenshots/local-logs-sample.png?raw=true)
+
 <br><hr><br>
+
+
 
 ## Complete Setup Instructions
 The following steps are complete instruction to create this template, but without any of the extra modules, and begin a brand new project in Nodejs with Typscript from a blank slate. The commands are shell commands, to be carried out in a terminal, console or other shell environment.

@@ -12,7 +12,7 @@ export class Server extends ServerSetup {
 
     private getRequests(): void {
         this.router.get('/', (req:Request, res:Response) => {
-            this.txtLogger.writeToLogFile('Request Made: GET /test');
+            this.txtLogger.writeToLogFile('Request Made: GET /');
 
             const status = 200;
             res.status(status).render('index.ejs', {  data: 'World'  });
