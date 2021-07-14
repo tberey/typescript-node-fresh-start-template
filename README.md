@@ -90,6 +90,7 @@ This is a fresh & blank template, with some of the most common and helpful (but 
 * [Nodemon](https://nodemon.io/) - Restart Application without Compiling, on a Change to Watched Files.
 * [Rimraf](https://www.npmjs.com/package/rimraf) - Directory Cleaner Tool.
 * [Dotenv](https://www.npmjs.com/package/dotenv) - Project Secrets Stored in a Local .env File.
+* [SimpleTxtLogger](https://www.npmjs.com/package/simple-txt-logger) - Logging tool.
 * [@types/*](https://www.npmjs.com/package/@types/node) - Various JS->TS Typesetting modules, to import types. Needed to use a JavaScript module with TypeScrpt when strict settings are enabled, or to make use of TS only features against a imported module.
 
 <br>
@@ -236,6 +237,7 @@ Below is the refined and confirmed roadmap, that has been planned for completion
 | Version | Date | Changes |
 |:---|:---|:---|
 | 1.0.0 | 2021-07-09 | <ul><li>Initial Commit.</li><li>Add inital directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
+| 1.0.1 | 2021-07-14 | <ul><li>Removal of local SimpleTxtLogger file. Addition of SimpleTxtLogger as a npm module.</li><li>Update README.md</li></ul> |
 
 <br><hr><br>
 

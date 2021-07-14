@@ -24,22 +24,23 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "latest",
+    "@types/express": "latest",
     "@types/mocha": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
-    "@types/express": "latest",
     "eslint": "latest",
-    "ts-node": "latest",
-    "typescript": "latest",
     "nodemon": "latest",
-    "rimraf": "latest"
+    "rimraf": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
   },
   "dependencies": {
     "chai": "latest",
     "chai-http": "latest",
-    "mocha": "latest",
     "dotenv": "latest",
+    "ejs": "latest",
     "express": "latest",
-    "ejs": "latest"
+    "mocha": "latest",
+    "simple-txt-logger": "latest"
   }
 }

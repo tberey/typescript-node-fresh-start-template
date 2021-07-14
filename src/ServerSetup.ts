@@ -1,4 +1,4 @@
-import { SimpleTxtLogger } from './SimpleTxtLogger';
+import { SimpleTxtLogger } from 'simple-txt-logger';
 import express, { Express, Router } from 'express';
 import dotenv from 'dotenv';
 import http from 'http';
