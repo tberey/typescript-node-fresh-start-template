@@ -238,6 +238,7 @@ Below is the refined and confirmed roadmap, that has been planned for completion
 |:---|:---|:---|
 | 1.0.0 | 2021-07-09 | <ul><li>Initial Commit.</li><li>Add inital directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
 | 1.0.1 | 2021-07-14 | <ul><li>Removal of local SimpleTxtLogger file. Addition of SimpleTxtLogger as a npm module.</li><li>Update README.md</li></ul> |
+| 1.0.2 | 2021-08-01 | <ul><li>Update tsconfig.</li><li>Update README.md</li></ul> |
 
 <br><hr><br>
 
