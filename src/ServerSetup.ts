@@ -1,4 +1,5 @@
 import { SimpleTxtLogger } from 'simple-txt-logger';
+import { Rollbar } from './Rollbar';
 import express, { Express, Router } from 'express';
 import dotenv from 'dotenv';
 import http from 'http';
@@ -13,6 +14,7 @@ export class ServerSetup {
     private app: Express;
     protected router: Router;
     protected txtLogger: SimpleTxtLogger;
+    protected rollbarLogger: Rollbar;
 
     protected constructor(port = '3000', hostname = '127.0.0.1') {
         dotenv.config();
@@ -20,6 +22,7 @@ export class ServerSetup {
         this.hostname = process.env['HOSTNAME'] || hostname;
 
         this.txtLogger = new SimpleTxtLogger(SimpleTxtLogger.newDateTime(), 'Server', ServerSetup.appName);
+        this.rollbarLogger = new Rollbar(this.txtLogger, ServerSetup.appName);
         this.txtLogger.writeToLogFile('...::SERVER-SIDE APPLICATION STARTING::...');
 
         this.router = express.Router();

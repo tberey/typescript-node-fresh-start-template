@@ -41,6 +41,7 @@
     "ejs": "latest",
     "express": "latest",
     "mocha": "latest",
+    "rollbar": "latest",
     "simple-txt-logger": "latest"
   }
 }
