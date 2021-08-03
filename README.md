@@ -72,18 +72,18 @@
 
 <!-- ABOUT THis PROJECT -->
 ## About This Project
-This is a fresh & blank template, with some of the most common and helpful (but basic) modules included, as well as automatic [logging](#screenshots) configured out the box. After installation and starting the application, you will have a simple and empty HTTP REST Server hosted locally, ready-to-go. Everything inclusive of this template will be completely up to date, and updated each time it is installed, so it will never depreciate and is safe to use over time repeatedly. This is the perfect starting point for any project, as you can simply install this template and then start importing your own modules, or writing your own code, without any hastle. Completely compitible with any vision or modules.
+This is a fresh & blank template, with some of the most common and helpful (but basic) modules included, as well as automatic [logging](#screenshots) configured out the box. After installation and starting the application, you will have a simple and empty HTTP REST Server hosted locally, ready-to-go. Everything inclusive of this template will be completely up to date, and updated each time it is installed, so it will never depreciate and is safe to use over time repeatedly. This is the perfect starting point for any project, as you can simply install this template and then start importing your own modules, or writing your own code, without any hassle. Completely compatible with any vision or modules.
 
-**A new project can be written in either TypeScript or JavaScript, without any further changes needed, however this template is set up and intended for TS, making use of it's typesetting, precompiling abilities, and simplicity in a object-oriented approach.**
+**A new project can be written in either TypeScript or JavaScript, without any further changes needed, however this template is set up and intended for TS, making use of it's typesetting, pre-compiling abilities, and simplicity in an object-oriented approach.**
 
-*This template is completely unrestricted, and free for anyone to use, unlimitedly, with no credit or acknowledgements needed. There are no signs of any ownership, or personal touches, inside the codebase.*
+*This template is completely unrestricted, and free for anyone to use, unlimited, with no credit or acknowledgements needed. There are no signs of any ownership, or personal touches, inside the codebase.*
 
 <br>
 
 ### Tech Stack
 * [Typescript](https://www.typescriptlang.org/) - Write in TypeScript (or JS), Compiles down to JavaScript.
 * [NodeJS](https://nodejs.org/en/) - Node Runtime Environment.
-* [ExpressJS](https://expressjs.com/) - Server & Router Infrastrusture Framework.
+* [ExpressJS](https://expressjs.com/) - Server & Router Infrastructure Framework.
 * [EJS](https://ejs.co/) - Serves Client Views.
 * [ESLint](https://eslint.org/) - Code Parsing, Styling & Error Checking.
 * [Mocha-Chai](https://mochajs.org/) - Testing with Mocha Framework, using the Chai Library.
@@ -91,7 +91,7 @@ This is a fresh & blank template, with some of the most common and helpful (but 
 * [Rimraf](https://www.npmjs.com/package/rimraf) - Directory Cleaner Tool.
 * [Dotenv](https://www.npmjs.com/package/dotenv) - Project Secrets Stored in a Local .env File.
 * [SimpleTxtLogger](https://www.npmjs.com/package/simple-txt-logger) - Logging tool.
-* [@types/*](https://www.npmjs.com/package/@types/node) - Various JS->TS Typesetting modules, to import types. Needed to use a JavaScript module with TypeScrpt when strict settings are enabled, or to make use of TS only features against a imported module.
+* [@types/*](https://www.npmjs.com/package/@types/node) - Various JS->TS Typesetting modules, to import types. Needed to use a JavaScript module with TypeScript when strict settings are enabled, or to make use of TS only features against a imported module.
 
 <br>
 
@@ -153,21 +153,21 @@ Logging Sample<br>
 
 
 ## Complete Setup Instructions
-The following steps are complete instruction to create this template, but without any of the extra modules, and begin a brand new project in Nodejs with Typscript from a blank slate. The commands are shell commands, to be carried out in a terminal, console or other shell environment.
+The following steps are complete instruction to create this template, but without any of the extra modules, and begin a brand new project in Nodejs with TypeScript from a blank slate. The commands are shell commands, to be carried out in a terminal, console or other shell environment.
 
 1. Create a new local directory and change current directory to new one:
   ```sh
   mkdir <PROJECT_NAME> && cd <PROJECT_NAME>
   ```
-2. Initialise a new package.json file:
+2. Initialize a new package.json file:
   ```sh
   npm init -y
   ```
-3. Install TypeScript dependancies:
+3. Install TypeScript dependencies:
   ```sh
   npm i --save-dev typescript ts-node
   ```
-4. Initialise a new tsconfig.json file:
+4. Initialize a new tsconfig.json file:
   ```sh
   npx tsc --init
   ```
@@ -212,7 +212,7 @@ The following steps are complete instruction to create this template, but withou
   npm run build
   npm run start
   ```
-<sub><b><i>^ Step 8.: These commands require the optional Step 7 to have been followed, to work as intended.<br>'npm run setup' installs and updates the project and it's dependancies, 'build' will compile the porject into browser/app runnable JS, and 'start' will run the project, from the compiled files in build. 'start:src' runs the project from the source TS file, so compilation is not neccessary.</i></b></sub>
+<sub><b><i>^ Step 8.: These commands require the optional Step 7 to have been followed, to work as intended.<br>'npm run setup' installs and updates the project and it's dependencies, 'build' will compile the project into browser/app runnable JS, and 'start' will run the project, from the compiled files in build. 'start:src' runs the project from the source TS file, so compilation is not necessary.</i></b></sub>
 
 <br><hr><br>
 
@@ -236,9 +236,10 @@ Below is the refined and confirmed roadmap, that has been planned for completion
 
 | Version | Date | Changes |
 |:---|:---|:---|
-| 1.0.0 | 2021-07-09 | <ul><li>Initial Commit.</li><li>Add inital directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
+| 1.0.0 | 2021-07-09 | <ul><li>Initial Commit.</li><li>Add initial directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
 | 1.0.1 | 2021-07-14 | <ul><li>Removal of local SimpleTxtLogger file. Addition of SimpleTxtLogger as a npm module.</li><li>Update README.md</li></ul> |
 | 1.0.2 | 2021-08-01 | <ul><li>Update tsconfig.</li><li>Update README.md</li></ul> |
+| 1.0.3 | 2021-08-03 | <ul><li>Fix Spelling.</li><li>Update README.md</li></ul> |
 
 <br><hr><br>
 
@@ -266,7 +267,7 @@ Contributions are welcomed and, of course, **greatly appreciated**.
 * [Issues & Requests.][issues-url]
 * [My Other Projects.](https://github.com/tberey?tab=repositories)
 * [Personal Website.](https://tberey.github.io/)
-* [Linked In.](https://uk.linkedin.com/in/thomas-berey-2a1860129)
+* [Linked In.](https://uk.linkedin.com/in/thomas-berey)
 
 <br>
 
@@ -294,5 +295,5 @@ Contributions are welcomed and, of course, **greatly appreciated**.
 [issues-shield]: https://img.shields.io/github/issues/tberey/typescript-node-fresh-start-template.svg
 [issues-url]: https://github.com/tberey/typescript-node-fresh-start-template/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
-[linkedin-url]: https://uk.linkedin.com/in/thomas-berey-2a1860129
+[linkedin-url]: https://uk.linkedin.com/in/thomas-berey
 [project-url]: https://github.com/tberey/typescript-node-fresh-start-template/projects
